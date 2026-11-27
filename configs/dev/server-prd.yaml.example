@@ -1,0 +1,14 @@
+# Safe placeholder. Commit this shape, never real values.
+env: prd
+paymongo:
+  core-api:
+    api-key: ${CORE_API_KEY}
+  accounts-api:
+    api-key: ${ACCOUNTS_API_KEY}
+  files-api:
+    api-key: ${FILES_API_KEY}
+  contact-api:
+    api-key: ${CONTACT_API_KEY}
+db:
+  host: ${DB_HOST}
+  password: ${DB_PASSWORD}
